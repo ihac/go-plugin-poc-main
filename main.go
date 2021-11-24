@@ -32,7 +32,7 @@ func loadAndExecute(name string) {
 func main() {
 	log.Info("main program")
 	time.Sleep(1 * time.Second)
-	loadAndExecute("../plugins/plugin1.so")
+	loadAndExecute("./plugins/plugin1.so")
 	time.Sleep(1 * time.Second)
-	loadAndExecute("../plugins/plugin2.so")
+	loadAndExecute("./plugins/plugin2.so")
 }
